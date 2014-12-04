@@ -37,7 +37,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rezwan/uss_ejs.git"
+    "url": "git://github.com/rezwan/uss.git"
   },
   "author": "rezwan",
   "license": ""
