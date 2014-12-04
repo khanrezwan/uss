@@ -1,4 +1,4 @@
-University course mangement system using Sails JS
+University course management system using Sails JS
 Setting up passport-local Auth with Bcrypt in Sails JS -Rezwan
 
 execute following commands from project directory then:
