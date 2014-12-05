@@ -54,6 +54,11 @@ module.exports.http = {
   *                                                                           *
   ****************************************************************************/
 
+    customMiddleware: function(app){
+      app.use(passport.initialize());
+      app.use(passport.session());
+    }
+
     // myRequestLogger: function (req, res, next) {
     //     console.log("Requested :: ", req.method, req.url);
     //     return next();

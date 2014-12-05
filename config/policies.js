@@ -26,8 +26,17 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
-  '*': [ 'passport' ]
+  '*': true,
+  'AuthController':
+  {
+
+    'login':true,
+
+    'register':['isLoggedIn'],
+    'callback':true, //need to check this thing out
+    'logout':['isLoggedIn']
+  }
+
   /***************************************************************************
   *                                                                          *
   * Here's an example of mapping some policies to run before a controller    *
